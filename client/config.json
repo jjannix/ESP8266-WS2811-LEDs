@@ -63,10 +63,10 @@
 		"fps" : 40
 	},
 	{
-		"ip" : "192.168.0.70",
+		"ip" : "192.168.0.89",
 		"port" : 2711,
 		"arrangement" : "center",
-		"length" : 100,
+		"length" : 50,
 		"fps" : 40
 	}
 ]
