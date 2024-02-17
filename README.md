@@ -45,7 +45,7 @@ The ESP should now try to connect to your WiFi network. If the WS2811 LED strip 
 ## Install and use the client
 The node.js client allows for live input of animation data (e.g. corresponding to music). It has an animation queue that can be put together by multiple people at once and a site for the LED strip operator / LJ with a live preview of the current colors on the LED strips.
 
-* Install dependencies: You need to have `node.js`, `npm` and `bower` installed on your system. Go to `client` and execute `npm install` to install all dependencies. Then, install the bower dependencies by executing `bower install` in `client/site`.
+* Install dependencies: You need to have `node.js`, `npm` (https://nodejs.org/en/download/package-manager) and `bower` (`npm install -g bower`) installed on your system. Go to `client` and execute `npm install` to install all dependencies. Then, install the bower dependencies by executing `bower install` in `client/site`.
 * You should edit the file `client/config.json` to reflect the actual LED strip configuration you are using.
 * You can run the node.js server by executing `client/server.js`: In the `client` directory, type `node server.js`.
 * The server is now available at [localhost:8080](http://localhost:8080) or at any IP of your computer. You can manage the animation queue at [localhost:8080/queue](http://localhost:8080/queue) and execute queue elements and control the animation at [localhost:8080](http://localhost:8080). On that page, press the `n` key to start the next animation, and any of the keys `a`, `s`, `d` or `f` for rhythm input. You can toggle the recording feature that records keypresses with the `r` key and play back your recordings by pressing `p`.
